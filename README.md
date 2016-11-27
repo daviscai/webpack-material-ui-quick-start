@@ -1,4 +1,5 @@
-## Material-ui & webpack
+## Webpack & Material-ui
+通过Material-ui react组件库 + webpack 搭建项目工程化，快速入门webpack打包神器。
 
 ### init project
 <pre>
@@ -121,6 +122,7 @@ document.body.appendChild(app);
 ```
 
 新建页面 index.html ，
+
 ```html
 <!doctype html>
 <html class="no-js" lang="">
@@ -136,7 +138,8 @@ document.body.appendChild(app);
  <script src="build/app.js"></script>
 </body>
 
-</html>```
+</html>
+```
 
 
 ### 配置 npm 脚本
