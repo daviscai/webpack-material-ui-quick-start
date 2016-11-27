@@ -195,7 +195,7 @@ app.js  1.21 MB       0  [emitted]  main
 
 webpack-dev-server有两种模式支持自动刷新: iframe模式和inline模式。
 
-webpac-dev-server支持Hot Module Replacement，即模块热替换，在前端代码变动的时候无需整个刷新页面，只把变化的部分替换掉。
+webpac-dev-server支持Hot Module Replacement，即模块热替换，在前端代码变动的时候无需刷新整个页面，只把变化的部分替换掉。
 
 entry段添加hot模块：  
 ```js
@@ -228,5 +228,7 @@ plugins: [
 执行 `npm start` 将会执行打包，访问 http://127.0.0.1:3000/ 将会看到Material-ui界面。
 
 ![](./a.png)
+
+[下一篇：webpack如何瘦身?](https://github.com/daviscai/webpack-material-ui-quick-start/blob/master/material-ui_webpack%20optimize.md)
 
 参考 http://www.jianshu.com/p/941bfaf13be1
